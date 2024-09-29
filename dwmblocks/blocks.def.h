@@ -5,8 +5,8 @@ static const Block blocks[] = {
     {"🔋 ",     "acpi -b | awk '{print $4}' | tr -d ','",                       1,     12},
     {"🔊 ",     "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }'",       1,     13},
     {"💡 ",     "brightnessctl -m | cut -d',' -f4 | tr -d '%'",                 1,     14},
-    {"📶 ",     "nmcli -t -f active,ssid dev wifi | awk -F: '$1==\"yes\"{print $2}' || echo 'Disconnected'", 5, 15},
-    {"🎧 ",    "bluetoothctl info | sed -n '/Name/{s/.*: //;p;q}' || echo 'Disconnected'", 5, 16},
+//    {"📶 ",     "nmcli -t -f active,ssid dev wifi | awk -F: '$1==\"yes\"{print $2}' || echo 'Disconnected'", 5, 15},
+//    {"🎧 ",    "bluetoothctl info | sed -n '/Name/{s/.*: //;p;q}' || echo 'Disconnected'", 5, 16},
     {"📅 ",     "date '+%d %b %a'",                                             60,    17},
     {"🕒 ",     "date '+%I:%M %p'",                                             60,    18},
 };
