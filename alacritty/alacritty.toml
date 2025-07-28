@@ -1,0 +1,39 @@
+[font]
+normal.family = "Iosevka Nerd Font Propo"
+bold.family = "Iosevka Nerd Font Propo"
+italic.family = "Iosevka Nerd Font Propo"
+bold_italic.family = "Iosevka Nerd Font Propo"
+size = 12.0
+
+[colors]
+primary.background = '#121212'
+primary.foreground = '#c0c0c0'
+
+[colors.cursor]
+text = '#121212'
+cursor = '#c0c0c0'
+
+[colors.selection]
+text = '#121212'
+background = '#333333'
+
+[colors.normal]
+black   = '#121212'
+red     = '#883838'   # muted burgundy
+green   = '#4c7042'   # dark olive green
+yellow  = '#bba04b'   # muted mustard
+blue    = '#4f638e'   # desaturated navy
+magenta = '#775980'   # dark purple mauve
+cyan    = '#4c7a85'   # desaturated teal
+white   = '#a0a0a0'   # light gray
+
+[colors.bright]
+black   = '#2a2a2a'
+red     = '#aa4c4c'   # soft red
+green   = '#6c8f5b'   # olive leaf
+yellow  = '#d7b75a'   # soft amber
+blue    = '#5f7aa5'   # soft slate blue
+magenta = '#8f6b94'   # pastel plum
+cyan    = '#619ca8'   # cloudy cyan
+white   = '#d0d0d0'   # off-white
+
