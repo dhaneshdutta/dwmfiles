@@ -8,11 +8,12 @@ alias grep='grep --color=auto'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias vim='nvim'
-alias svim='sudo -E nvim'
-alias emerge='sudo emerge'
-alias reboot='sudo reboot'
-alias poweroff='sudo poweroff'
-alias makeconf='svim /etc/portage/make.conf'
+alias dvim='doas nvim'
+alias emerge='doas emerge'
+alias reboot='doas reboot'
+alias poweroff='doas poweroff'
+alias makeconf='doas nvim /etc/portage/make.conf'
+alias dispatch-conf='doas dispatch-conf'
 
 # History settings
 HISTFILE=~/.bash_history
